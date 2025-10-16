@@ -5,41 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FRIA Code</title>
     <link rel="stylesheet" href="stylesheets/layout.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <div class="container">
-      <div class="rectangle" style="background-color: #fbf6ea">
-        <img class="glavn" src="images/5555.png" alt="Главная" />
+    <!-- Первая секция -->
+    <section class="section1">
+      <div class="rectangle bg-white1">
+        <div id="glavn1"></div>
         <div class="text-left">
           Fira Code создал Никита <br />
           Прокопов в 2014 году
         </div>
       </div>
-
-      <div class="rectangle" style="background-color: #2e358d">
-        <img class="nachert" src="images/nachert.png" alt="Начертание" />
+    </section>
+    <!-- Вторая секция -->
+    <section class="section2">
+      <div class="rectangle bg-blue">
         <div class="mini-rectangle">НАЧЕРТАНИЯ</div>
         <div class="text-under">
           В нашей лапше-рамэн спрятаны все начертания Fira Code: лёгкий Light,
           сытный Regular, насыщенный Medium и мощный Bold
         </div>
+        <div id="nachert"></div>
         <div class="triangle"></div>
         <div class="triangle2"></div>
       </div>
-
-      <div class="rectangle" style="background-color: #fbf6ea">
-        <img class="tarelka" src="images/tarelka.png" alt="Тарелка" />
+    </section>
+    <!-- Третья секция -->
+    <section class="section3">
+      <div class="rectangle bg-white2">
+        <div id="tarelka"></div>
         <div class="mini-rectangle3">СОСТАВ</div>
         <div class="text-left3">
           Шрифт создавался на основе шрифта Fira Mono
         </div>
-        <div class="textnaklon">г г г г г г г</div>
-        <div class="textnaklon2">а а а а а а</div>
-        <div class="textnaklon3">с с с с с с с</div>
+        <div class="textnaklon">г г г г г г г г г</div>
+        <div class="textnaklon2">а а а а а а а</div>
+        <div class="textnaklon3">с с с с c с с</div>
         <div class="textnaklon4">о о о о о о о о</div>
 
         <div class="big">б</div>
@@ -47,18 +48,42 @@
         <div class="big3">ю</div>
         <div class="big4">х</div>
       </div>
+    </section>
+    <!-- Четвертая секция -->
+    <section class="section4">
+      <div class="rectangle bg-white3">
+        <div id="bottel">
+          <!-- Контейнер для пустых кружков -->
+          <div class="circles1">
+            <div class="circle circle-empty-1"></div>
+            <div class="circle circle-empty-2"></div>
+            <div class="circle circle-empty-3"></div>
+            <div class="circle circle-empty-4"></div>
+          </div>
 
-      <div class="rectangle" style="background-color: #fbf6ea">
-        <div class="mini-rectangle4">ЦИФРЫ</div>
-        <div class="text-under4">
-          Цифры в Fira Code выглядят как пузырьки рамунэ: ровные, аккуратные и
-          одинакового размера. Каждый «пузырёк» сохраняет свою форму в любом
-          начертании — от лёгкого Light до насыщенного Bold.
+          <!-- Контейнер для кружков с цифрами -->
+          <div class="circles2">
+            <div class="circle circle-number-1">1</div>
+            <div class="circle circle-number-2">2</div>
+            <div class="circle circle-number-3">3</div>
+            <div class="circle circle-number-4">4</div>
+            <div class="circle circle-number-5">5</div>
+          </div>
+
+          <div class="section4Text">
+            <div class="mini-rectangle4">ЦИФРЫ</div>
+            <div class="text-under4">
+              Цифры в Fira Code выглядят как пузырьки рамунэ: ровные, аккуратные
+              и одинакового размера. Каждый «пузырёк» сохраняет свою форму в
+              любом начертании — от лёгкого Light до насыщенного Bold.
+            </div>
+          </div>
         </div>
-        <img class="bottel" src="images/bottel.png" alt="Бутылки" />
       </div>
-
-      <div class="rectangle" style="background-color: #2e358d">
+    </section>
+    <!-- Пятая секция -->
+    <section class="section5">
+      <div class="rectangle bg-blue2">
         <div class="mini-rectangl5">ЛИГАТУРЫ</div>
         <div class="text-under5">
           В наших онигири есть «секретные ингредиенты» — лигатуры
@@ -68,10 +93,21 @@
           «начинки-лигатуры», и каждый кусочек становится красивым и удобным для
           чтения
         </div>
+        <div class="images-stack">
+          <img class="image" src="images/1.svg" alt="1" />
+          <img class="image" src="images/2.svg" alt="2" />
+          <img class="image" src="images/3.svg" alt="3" />
+          <img class="image" src="images/4.svg" alt="4" />
+          <img class="image" src="images/5.svg" alt="5" />
+          <img class="image" src="images/6.svg" alt="6" />
+          <img class="image" src="images/7.svg" alt="7" />
+        </div>
       </div>
-
-      <div class="rectangle" style="background-color: #fbf6ea">
-        <img class="lapha" src="images/lapha.png" alt="Палочки языки" />
+    </section>
+    <!-- Шестая секция -->
+    <section class="section6">
+      <div class="rectangle bg-white4">
+        <div id="palochki"></div>
         <div class="mini-rectangle6">ЯЗЫКИ</div>
         <div class="text-under6">
           Попробуй вкусный шрифт <br />на любом языке
@@ -82,7 +118,10 @@
         <div class="tilted-text4">english</div>
         <div class="tilted-text5">türk</div>
       </div>
-      <div class="rectangle" style="background-color: #2e358d">
+    </section>
+    <!-- Седьмая секция -->
+    <section class="section7">
+      <div class="rectangle bg-blue3">
         <div class="custom-line"></div>
         <div class="custom-line2"></div>
         <div class="custom-line3"></div>
@@ -97,8 +136,11 @@
         <div class="textleft">Брусковая засечка</div>
         <div class="textrit">Поднятая середина</div>
       </div>
-      <div class="rectangle" style="background-color: #2e358d">
-        <img class="palochki" src="images/palochki.png" alt="Тарелка" />
+    </section>
+    <!-- Восьмая секция -->
+    <section class="section8">
+      <div class="rectangle bg-blue4">
+        <div id="tarelkaa"></div>
         <div class="mini-rectangle8">ГЛИФЫ</div>
         <div class="text-under8">
           У Fira Code целая коллекция глифов — буквы, цифры, знаки пунктуации,
@@ -117,10 +159,13 @@
         <div class="glif8">¿</div>
         <div class="glif9">£</div>
         <div class="glif10">^</div>
+        <div class="glif11">*</div>
       </div>
-
-      <div class="rectangle" style="background-color: #e84949">
-        <img class="chek" src="images/chek.png" alt="подвал" />
+    </section>
+    <!-- Девятая секция -->
+    <section class="section9">
+      <div class="rectangle bg-red">
+        <div id="chekk"></div>
         <div class="textend">
           СПАСИБО<br />
           ЗА ПОКУПКУ!
@@ -135,6 +180,6 @@
         <div class="custom-line7"></div>
         <div class="textend7">Приятного аппетита)</div>
       </div>
-    </div>
+    </section>
   </body>
 </html>

@@ -2,14 +2,8 @@ body {
   font-family: "Fira Code", monospace;
   margin: 0;
   padding: 0;
-}
-
-.container {
-  display: flex;
-  gap: 0px;
-  padding: 0px;
-  background-color: #fbf6ea;
-  flex-direction: column;
+  overflow-x: hidden;
+  background-color: #e84949;
 }
 
 /* Стили для всех прямоугольников */
@@ -17,7 +11,33 @@ body {
   position: relative;
 }
 
+/* Стили первого слайда */
+
+.section1 #glavn1 {
+  background-image: url("../images/glavnn.svg");
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 2px;
+}
+
 /* Стили второго слайда */
+
+.section2 #nachert {
+  background-image: url("../images/linee.svg");
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .mini-rectangle {
   position: absolute;
   width: 625px;
@@ -58,7 +78,7 @@ body {
 .triangle {
   position: absolute;
   bottom: 0px;
-  right: -4px;
+  right: 10px;
   width: 0;
   height: 0;
   border-left: 89px solid transparent;
@@ -76,6 +96,18 @@ body {
 }
 
 /* Стили третьего слайда */
+
+.section3 #tarelka {
+  background-image: url("../images/tarelkaa.svg");
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .mini-rectangle3 {
   position: absolute;
   width: 418px;
@@ -106,8 +138,8 @@ body {
   transform: rotate(32deg);
   display: inline-block;
   position: absolute;
-  top: 155px;
-  left: 0px;
+  top: 165px;
+  left: -30px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
@@ -119,8 +151,8 @@ body {
   transform: rotate(-9deg);
   display: inline-block;
   position: absolute;
-  top: 590px;
-  left: 15px;
+  top: 588px;
+  left: -8px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
@@ -132,12 +164,12 @@ body {
   transform: rotate(-33deg);
   display: inline-block;
   position: absolute;
-  top: 143px;
-  left: 890px;
+  top: 160px;
+  left: 880px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
-  max-width: 700px;
+  max-width: 1000px;
   color: #fbf6ea;
 }
 
@@ -146,7 +178,7 @@ body {
   display: inline-block;
   position: absolute;
   top: 590px;
-  left: 950px;
+  left: 935px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
@@ -201,8 +233,125 @@ body {
   color: #2e358d;
 }
 /* Стили четвертого слайда */
-.mini-rectangle4 {
+.section4 #bottel {
+  background-image: url("../images/bottel2.svg");
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -95px;
+}
+
+#bottel {
+  position: relative;
+}
+
+.section4Text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
   position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Контейнеры для кружков */
+.circles1,
+.circles2 {
+  position: relative;
+  width: 100%;
+  height: 400px; /* высота контейнера */
+}
+
+/* Общие стили для всех кружков */
+.circle {
+  position: relative;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2e358d;
+  background-color: #fbf6ea;
+}
+
+/* Пустые кружки */
+.circle-empty-1 {
+  width: 50px;
+  height: 50px;
+  top: 50px;
+  left: 100px;
+}
+
+.circle-empty-2 {
+  width: 70px;
+  height: 70px;
+  top: 100px;
+  left: 200px;
+}
+
+.circle-empty-3 {
+  width: 90px;
+  height: 90px;
+  top: 150px;
+  left: 300px;
+}
+
+.circle-empty-4 {
+  width: 60px;
+  height: 60px;
+  top: 200px;
+  left: 400px;
+}
+
+/* Кружки с цифрами */
+.circle-number-1 {
+  width: 70px;
+  height: 70px;
+  border: 20px solid #2e358d;
+  top: 30px;
+  left: -540px;
+}
+
+.circle-number-2 {
+  width: 65px;
+  height: 65px;
+  border: 9px solid #2e358d;
+  top: -10px;
+  left: -465px;
+}
+
+.circle-number-3 {
+  width: 70px;
+  height: 70px;
+  border: 20px solid #2e358d;
+  top: -60px;
+  left: -560px;
+}
+
+.circle-number-4 {
+  width: 40px;
+  height: 40px;
+  border: 8px solid #2e358d;
+  top: -125px;
+  left: -460px;
+}
+
+.circle-number-5 {
+  width: 45px;
+  height: 45px;
+  border: 9px solid #2e358d;
+  top: -138px;
+  left: -495px;
+}
+
+.mini-rectangle4 {
   width: 374px;
   height: 126px;
   background-color: #2e358d;
@@ -213,13 +362,8 @@ body {
   font-size: 85px;
   font-weight: bold;
   color: #fbf6ea;
-  top: 270px;
-  left: 533px;
 }
 .text-under4 {
-  position: absolute;
-  top: 506px;
-  left: 434px;
   font-family: "Fira Code", monospace;
   font-size: 22px;
   color: #2e358d;
@@ -228,6 +372,23 @@ body {
 }
 
 /* Стили пятого слайда */
+
+.images-stack {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  top: -10px;
+}
+
+.images-stack .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .mini-rectangl5 {
   position: absolute;
   width: 530px;
@@ -246,7 +407,7 @@ body {
 .text-under5 {
   position: absolute;
   top: 214px;
-  left: 462px;
+  left: 445px;
 
   font-family: "Fira Code", monospace;
   font-size: 22px;
@@ -255,7 +416,7 @@ body {
 }
 .text-left5 {
   position: absolute;
-  top: 412px;
+  top: 440px;
   left: 84px;
   font-family: "Fira Code", monospace;
   font-size: 22px;
@@ -264,6 +425,17 @@ body {
   text-align: left;
 }
 /* Стили шестого слайда */
+
+.section6 #palochki {
+  background-image: url("../images/paaloochki.svg");
+  background-size: cover;
+  width: 1440px;
+  height: 1030px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 .mini-rectangle6 {
   position: absolute;
   width: 375px;
@@ -294,7 +466,7 @@ body {
   transform: rotate(10deg);
   display: inline-block;
   position: absolute;
-  top: 222px;
+  top: 228px;
   left: 160px;
   font-family: "Fira Code", monospace;
   font-size: 42px;
@@ -305,7 +477,7 @@ body {
   transform: rotate(10deg);
   display: inline-block;
   position: absolute;
-  top: 467px;
+  top: 470px;
   left: 160px;
   font-family: "Fira Code", monospace;
   font-size: 42px;
@@ -315,7 +487,7 @@ body {
   transform: rotate(10deg);
   display: inline-block;
   position: absolute;
-  top: 715px;
+  top: 716px;
   left: 160px;
   font-family: "Fira Code", monospace;
   font-size: 42px;
@@ -326,7 +498,7 @@ body {
   transform: rotate(-10deg);
   display: inline-block;
   position: absolute;
-  top: 347px;
+  top: 350px;
   left: 1083px;
   font-family: "Fira Code", monospace;
   font-size: 42px;
@@ -336,7 +508,7 @@ body {
   transform: rotate(-10deg);
   display: inline-block;
   position: absolute;
-  top: 623px;
+  top: 628px;
   left: 1163px;
   font-family: "Fira Code", monospace;
   font-size: 42px;
@@ -382,45 +554,36 @@ body {
 
 .big-letter {
   position: absolute;
-  top: 146px;
+  top: 135px;
   left: 121px;
-  font-family: "Fira Code";
-  font-size: 451px;
+  font-size: 505px;
   font-weight: bold;
   color: #fbf6ea;
 }
 
 .big-letter1 {
   position: absolute;
-  top: 178px;
+  top: 170px;
   left: 355px;
-  font-family: "Fira Code";
-  font-size: 415px;
+  font-size: 465px;
   font-weight: bold;
   color: #fbf6ea;
 }
 .big-letter2 {
   position: absolute;
-  top: 147px;
+  top: 135px;
   left: 806px;
-  font-family: "Fira Code";
-  font-size: 450px;
+  font-size: 505px;
   font-weight: bold;
   color: #fbf6ea;
 }
 .big-letter3 {
   position: absolute;
-  top: 160px;
+  top: 149px;
   left: 1098px;
-  font-family: "Fira Code";
-  font-size: 435px;
+  font-size: 488px;
   font-weight: bold;
   color: #fbf6ea;
-}
-.rectangle:nth-child(7) {
-  width: 1440px;
-  height: 1030px;
-  position: relative; /* Важно для позиционирования дочерних элементов */
 }
 
 /* Стили для линии */
@@ -453,7 +616,7 @@ body {
 .textleft {
   position: absolute;
   top: 609px;
-  left: 175px;
+  left: 168px;
   font-family: "Fira Code", monospace;
   font-size: 22px;
   color: #fbf6ea;
@@ -463,8 +626,8 @@ body {
 
 .textrit {
   position: absolute;
-  top: 234px;
-  left: 1108px;
+  top: 238px;
+  left: 1150px;
   font-family: "Fira Code", monospace;
   font-size: 22px;
   color: #fbf6ea;
@@ -473,6 +636,17 @@ body {
 }
 
 /* Стили восьмого слайда */
+
+.section8 #tarelkaa {
+  background-image: url("../images/tarelkaaa.svg");
+  background-size: cover;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
 .mini-rectangle8 {
   position: absolute;
@@ -524,11 +698,11 @@ body {
 }
 
 .glif2 {
-  transform: rotate(2deg);
+  transform: rotate(45deg);
   display: inline-block;
   position: absolute;
-  top: 318px;
-  left: 956px;
+  top: 310px;
+  left: 985px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
@@ -561,7 +735,7 @@ body {
   display: inline-block;
   position: absolute;
   top: 417px;
-  left: 1035px;
+  left: 920px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
@@ -571,8 +745,8 @@ body {
   transform: rotate(2deg);
   display: inline-block;
   position: absolute;
-  top: 420px;
-  left: 919px;
+  top: 350px;
+  left: 880px;
   font-family: "Fira Code", monospace;
   font-size: 130px;
   color: #fbf6ea;
@@ -616,13 +790,36 @@ body {
   display: inline-block;
   position: absolute;
   top: 490px;
-  left: 940px;
+  left: 900px;
+  font-family: "Fira Code", monospace;
+  font-size: 124px;
+  color: #fbf6ea;
+}
+
+.glif11 {
+  transform: rotate(-102deg);
+  display: inline-block;
+  position: absolute;
+  top: 420px;
+  left: 1060px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
 }
 
 /* Стили девятого слайда */
+
+.section9 #chekk {
+  background-image: url("../images/chekk.svg");
+  background-size: cover;
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .textend {
   position: absolute;
   top: 129px;
@@ -725,62 +922,63 @@ body {
   text-align: center;
 }
 
-/* Размеры для каждого прямоугольника */
-.rectangle:nth-child(1) {
+/* Стили для фона */
+.bg-white1 {
+  background-color: #fbf6ea;
   width: 1440px;
   height: 900px;
 }
-
-.rectangle:nth-child(2) {
+.bg-blue {
+  background-color: #2e358d;
   width: 1440px;
   height: 909px;
 }
-
-.rectangle:nth-child(3) {
+.bg-white2 {
+  background-color: #fbf6ea;
   width: 1440px;
   height: 958px;
 }
-.rectangle:nth-child(4) {
+
+.bg-white3 {
+  background-color: #fbf6ea;
+  width: 1440px;
+  height: 800px;
+}
+
+.bg-blue2 {
+  background-color: #2e358d;
   width: 1440px;
   height: 900px;
 }
-.rectangle:nth-child(5) {
-  width: 1440px;
-  height: 900px;
-}
-.rectangle:nth-child(6) {
+
+.bg-white4 {
+  background-color: #fbf6ea;
   width: 1440px;
   height: 1030px;
 }
-.rectangle:nth-child(7) {
+
+.bg-blue3 {
+  background-color: #2e358d;
   width: 1440px;
   height: 900px;
 }
-.rectangle:nth-child(8) {
+
+.bg-blue4 {
+  background-color: #2e358d;
   width: 1440px;
   height: 900px;
 }
-.rectangle:nth-child(9) {
+
+.bg-red {
+  background-color: #e84949;
   width: 1440px;
   height: 600px;
 }
 
-/* Стили для изображений */
-.glavn {
-  display: block;
-  transform: translateX(-94px);
-  height: auto;
-}
-
-.nachert {
-  display: block;
-  margin-left: 27%;
-  height: auto;
-}
-
-.lapha {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+.container {
+  display: flex;
+  gap: 0px;
+  padding: 0px;
+  background-color: #fbf6ea;
+  flex-direction: column;
 }
