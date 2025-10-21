@@ -139,8 +139,8 @@ body {
   transform: rotate(32deg);
   display: inline-block;
   position: absolute;
-  top: 165px;
-  left: -30px;
+  top: 160px;
+  left: -10px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
@@ -152,8 +152,8 @@ body {
   transform: rotate(-9deg);
   display: inline-block;
   position: absolute;
-  top: 588px;
-  left: -8px;
+  top: 594px;
+  left: 16px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
@@ -165,8 +165,8 @@ body {
   transform: rotate(-33deg);
   display: inline-block;
   position: absolute;
-  top: 160px;
-  left: 880px;
+  top: 162px;
+  left: 860px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
@@ -178,8 +178,8 @@ body {
   transform: rotate(10deg);
   display: inline-block;
   position: absolute;
-  top: 590px;
-  left: 935px;
+  top: 595px;
+  left: 946px;
   font-family: "Fira Code", monospace;
   font-weight: bold;
   font-size: 70px;
@@ -468,8 +468,8 @@ body {
 .text-under5 {
   position: absolute;
   top: 214px;
-  left: 445px;
-
+  left: 490px;
+  text-align: center;
   font-family: "Fira Code", monospace;
   font-size: 22px;
   color: #fbf6ea;
@@ -615,34 +615,34 @@ body {
 
 .big-letter {
   position: absolute;
-  top: 135px;
+  top: 210px;
   left: 121px;
-  font-size: 505px;
+  font-size: 467px;
   font-weight: bold;
   color: #fbf6ea;
 }
 
 .big-letter1 {
   position: absolute;
-  top: 170px;
+  top: 238px;
   left: 355px;
-  font-size: 465px;
+  font-size: 425px;
   font-weight: bold;
   color: #fbf6ea;
 }
 .big-letter2 {
   position: absolute;
-  top: 135px;
+  top: 210px;
   left: 806px;
-  font-size: 505px;
+  font-size: 465px;
   font-weight: bold;
   color: #fbf6ea;
 }
 .big-letter3 {
   position: absolute;
-  top: 149px;
+  top: 222px;
   left: 1098px;
-  font-size: 488px;
+  font-size: 451px;
   font-weight: bold;
   color: #fbf6ea;
 }
@@ -677,7 +677,7 @@ body {
 .textleft {
   position: absolute;
   top: 609px;
-  left: 168px;
+  left: 164px;
   font-family: "Fira Code", monospace;
   font-size: 22px;
   color: #fbf6ea;
@@ -751,19 +751,19 @@ body {
 .glif1 {
   display: inline-block;
   position: absolute;
-  top: 374px;
-  left: 1047px;
+  top: 380px;
+  left: 1052px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
 }
 
 .glif2 {
-  transform: rotate(45deg);
+  transform: rotate(2deg);
   display: inline-block;
   position: absolute;
-  top: 310px;
-  left: 985px;
+  top: 330px;
+  left: 970px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
@@ -773,8 +773,8 @@ body {
   transform: rotate(-30deg);
   display: inline-block;
   position: absolute;
-  top: 342px;
-  left: 1180px;
+  top: 370px;
+  left: 1170px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
@@ -795,8 +795,8 @@ body {
   transform: rotate(-59deg);
   display: inline-block;
   position: absolute;
-  top: 417px;
-  left: 920px;
+  top: 425px;
+  left: 1050px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
@@ -806,8 +806,8 @@ body {
   transform: rotate(2deg);
   display: inline-block;
   position: absolute;
-  top: 350px;
-  left: 880px;
+  top: 430px;
+  left: 940px;
   font-family: "Fira Code", monospace;
   font-size: 130px;
   color: #fbf6ea;
@@ -817,7 +817,7 @@ body {
   transform: rotate(2deg);
   display: inline-block;
   position: absolute;
-  top: 520px;
+  top: 540px;
   left: 1174px;
   font-family: "Fira Code", monospace;
   font-size: 67px;
@@ -828,7 +828,7 @@ body {
   transform: rotate(30deg);
   display: inline-block;
   position: absolute;
-  top: 475px;
+  top: 500px;
   left: 1110px;
   font-family: "Fira Code", monospace;
   font-size: 103px;
@@ -839,8 +839,8 @@ body {
   transform: rotate(35deg);
   display: inline-block;
   position: absolute;
-  top: 504px;
-  left: 990px;
+  top: 520px;
+  left: 1020px;
   font-family: "Fira Code", monospace;
   font-size: 95px;
   color: #fbf6ea;
@@ -850,19 +850,8 @@ body {
   transform: rotate(-102deg);
   display: inline-block;
   position: absolute;
-  top: 490px;
-  left: 900px;
-  font-family: "Fira Code", monospace;
-  font-size: 124px;
-  color: #fbf6ea;
-}
-
-.glif11 {
-  transform: rotate(-102deg);
-  display: inline-block;
-  position: absolute;
-  top: 420px;
-  left: 1060px;
+  top: 510px;
+  left: 950px;
   font-family: "Fira Code", monospace;
   font-size: 124px;
   color: #fbf6ea;
